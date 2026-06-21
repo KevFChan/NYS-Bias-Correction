@@ -1,0 +1,15 @@
+# Core (needed for synthetic mode — works offline right now)
+pandas>=2.0
+numpy>=1.24
+pyarrow>=12.0
+scikit-learn>=1.3
+
+# Real-data mode (add on your machine for Phase 0+)
+# xarray>=2023.1
+# zarr>=2.14
+# gcsfs>=2023.1        # for WeatherBench2 cloud Zarr
+# cdsapi>=0.6          # for ERA5 from Copernicus CDS
+# meteostat>=1.6       # one option for station obs (or synoptic / IEM ASOS)
+
+# Agent (Phases 5+)
+# anthropic>=0.39
